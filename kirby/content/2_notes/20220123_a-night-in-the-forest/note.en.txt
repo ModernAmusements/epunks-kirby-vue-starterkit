@@ -1,0 +1,22 @@
+Text:
+
+Hallo
+{{ gallery }}
+
+----
+
+Date: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Gallery:
+
+- photography/trees

@@ -1,0 +1,19 @@
+{
+  "name": "epunks-kirby-vue-starterkit",
+  "description": "",
+  "main": "nuxt.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/epunks/epunks-kirby-vue.js-bootstrap-5.git"
+  },
+  "keywords": [
+    "VueJs",
+    "NuxtJs",
+    "Bootstrap",
+    "Kirby",
+    "Cms"
+  ],
+  "author": "Shady Tawfik - epunks",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/epunks/epunks-kirby-vue.js-bootstrap-5#readme"
+}

@@ -1,0 +1,82 @@
+{
+  "name": "epunks-vuejs-kirby-bootstrap-5",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=static nuxt start",
+    "generate": "cross-env NODE_ENV=static nuxt generate --universal",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "npm run lint:js"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/proxy": "^2.0.1",
+    "cli": "^1.0.1",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.7",
+    "nuxt-merge-asyncdata": "^0.1.1",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/router": "^1.5.0",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.2",
+    "dotenv-flow": "^3.2.0",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jsdom": "^16.4.0",
+    "php-server": "^0.2.1",
+    "prettier": "^2.1.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "extends": [
+      "@nuxtjs",
+      "prettier",
+      "prettier/vue",
+      "plugin:prettier/recommended",
+      "plugin:nuxt/recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "vue/no-v-html": "off",
+      "vue/require-prop-types": "off"
+    }
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 150
+  },
+  "description": "",
+  "main": "nuxt.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/epunks/epunks-kirby-vue.js-bootstrap-5.git"
+  },
+  "keywords": [
+    "VueJs",
+    "NuxtJs",
+    "Bootstrap",
+    "Kirby",
+    "Cms"
+  ],
+  "author": "Shady Tawfik - epunks",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/epunks/epunks-kirby-vue.js-bootstrap-5#readme"
+}
