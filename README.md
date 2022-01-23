@@ -4,7 +4,7 @@
 The frontend:
 
 1. **NUXT** - der [vue-nuxt](vue-nuxt) Ordner. Schließlich verwendet auch dieses Projekt JSON-Inhaltsrepräsentationen, um den Inhalt zu holen, enthält aber auch viele der Goodies, die [Nuxt.js](https://nuxtjs.org) zu bieten hat (einschließlich der statischen Seitengenerierung)!
-1. **Bootstrap 5** -[bootstrap5](bootstrap5) [Bootstrap.css](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+2. **Bootstrap 5** -[bootstrap5](bootstrap5) [Bootstrap.css](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 
 
 ## Anforderungen
@@ -15,13 +15,15 @@ The frontend:
 
 ## Setup
 1. `cd` into its folder frontend (vue-nuxt)
-1. copy and rename .env.production -> .env
-2. run `npm install`
-5. run `npm run dev`
+2. copy and rename .env.production -> .env
+3. run `npm install --no-audit` (in vue-nuxt)
+4. add Boostraps5 `npm install bootstrap@5 --save --no-audit`
+5. run `npm run dev --no-audit` (in vue-nuxt)
 6. Kirby running at: http://127.0.0.1:8000  
-7. Create Admin
-shady@epunks.de
-epunks2011
+7. Create Admin http://127.0.0.1:8000/panel
+
+## Entwicklung
+Siehe Readme in Vue-Nuxt
 
 ## Verwendung
 
