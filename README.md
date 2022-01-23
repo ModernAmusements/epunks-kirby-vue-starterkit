@@ -14,8 +14,8 @@ The frontend:
   - Kirby ist **nicht** eine freie Software. Sie können es kostenlos auf Ihrem lokalen Rechner ausprobieren, aber um Kirby auf einem öffentlichen Server zu betreiben, müssen Sie eine gültige Lizenz unter https://getkirby.com/buy erwerben.
 
 ## Setup
-1. copy and rename .env.production -> .env
 1. `cd` into its folder frontend (vue-nuxt)
+1. copy and rename .env.production -> .env
 2. run `npm install`
 5. run `npm run dev`
 6. Kirby running at: http://127.0.0.1:8000  
